@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace s3lab_tpl_csharp_app
 {
-    public partial class Form1 : Form
+    public partial class formMain : Form
     {
-        public Form1()
+        public formMain()
         {
             InitializeComponent();
         }
