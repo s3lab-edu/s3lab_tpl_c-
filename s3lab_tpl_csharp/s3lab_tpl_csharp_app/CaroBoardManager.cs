@@ -1,4 +1,5 @@
-﻿using System.Drawing;
+﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace s3lab_tpl_csharp_app
@@ -34,9 +35,11 @@ namespace s3lab_tpl_csharp_app
                     {
                         Width = Constant.CHESS_WIDTH,
                         Height = Constant.CHESS_HEIGHT,
-                        Location = new Point(oldButton.Location.X + oldButton.Width, oldButton.Location.Y)
+                        Location = new Point(oldButton.Location.X + oldButton.Width, oldButton.Location.Y),
+                        BackgroundImageLayout = ImageLayout.Stretch
                     };
 
+                    btn.Click += btn_Click;
                     ChessBoard.Controls.Add(btn);
 
                     oldButton = btn;
@@ -45,6 +48,23 @@ namespace s3lab_tpl_csharp_app
                 oldButton.Width = 0;
                 oldButton.Height = 0;
             }
+        }
+
+        void btn_Click(object sender, EventArgs e)
+        {
+            Button btn = sender as Button;
+
+            if (btn.Text != null && btn.Text != "")
+            {
+                return;
+            }
+
+            Mark(btn);
+        }
+
+        private void Mark(Button btn)
+        {
+            btn.Text = "0";
         }
         #endregion
     }
