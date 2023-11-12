@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "s3lab_tpl_csharp_app", "s3l
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "s3lab_tpl_csharp_util", "s3lab_tpl_csharp_util\s3lab_tpl_csharp_util.csproj", "{903F7347-A0AE-4FBC-AE0F-743113754C3B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "s3lab_tpl_csharp_customctrl", "s3lab_tpl_csharp_customctrl\s3lab_tpl_csharp_customctrl.csproj", "{7374F473-9A1B-4201-86E5-92E21912A321}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{903F7347-A0AE-4FBC-AE0F-743113754C3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{903F7347-A0AE-4FBC-AE0F-743113754C3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{903F7347-A0AE-4FBC-AE0F-743113754C3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7374F473-9A1B-4201-86E5-92E21912A321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7374F473-9A1B-4201-86E5-92E21912A321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7374F473-9A1B-4201-86E5-92E21912A321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7374F473-9A1B-4201-86E5-92E21912A321}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

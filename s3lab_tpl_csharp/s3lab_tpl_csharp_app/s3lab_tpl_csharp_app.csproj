@@ -80,6 +80,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\s3lab_tpl_csharp_customctrl\s3lab_tpl_csharp_customctrl.csproj">
+      <Project>{7374f473-9a1b-4201-86e5-92e21912a321}</Project>
+      <Name>s3lab_tpl_csharp_customctrl</Name>
+    </ProjectReference>
     <ProjectReference Include="..\s3lab_tpl_csharp_util\s3lab_tpl_csharp_util.csproj">
       <Project>{903f7347-a0ae-4fbc-ae0f-743113754c3b}</Project>
       <Name>s3lab_tpl_csharp_util</Name>

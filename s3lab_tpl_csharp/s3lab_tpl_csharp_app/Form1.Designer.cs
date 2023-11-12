@@ -34,6 +34,7 @@ namespace s3lab_tpl_csharp_app
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.buttonRound1 = new s3lab_tpl_csharp_customctrl.ButtonRound();
             this.SuspendLayout();
             // 
             // button1
@@ -82,11 +83,28 @@ namespace s3lab_tpl_csharp_app
             this.button5.Text = "5";
             this.button5.UseVisualStyleBackColor = true;
             // 
+            // buttonRound1
+            // 
+            this.buttonRound1.BackColor = System.Drawing.Color.Transparent;
+            this.buttonRound1.BorderColor = System.Drawing.Color.DimGray;
+            this.buttonRound1.ButtonColor = System.Drawing.Color.Red;
+            this.buttonRound1.Location = new System.Drawing.Point(790, 21);
+            this.buttonRound1.Name = "buttonRound1";
+            this.buttonRound1.OnHoverBorderColor = System.Drawing.Color.Gray;
+            this.buttonRound1.OnHoverButtonColor = System.Drawing.Color.Yellow;
+            this.buttonRound1.OnHoverTextColor = System.Drawing.Color.Gray;
+            this.buttonRound1.Size = new System.Drawing.Size(101, 33);
+            this.buttonRound1.TabIndex = 5;
+            this.buttonRound1.Text = "Hello";
+            this.buttonRound1.TextColor = System.Drawing.Color.White;
+            this.buttonRound1.UseVisualStyleBackColor = false;
+            // 
             // formMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(903, 524);
+            this.Controls.Add(this.buttonRound1);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -105,6 +123,7 @@ namespace s3lab_tpl_csharp_app
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
+        private s3lab_tpl_csharp_customctrl.ButtonRound buttonRound1;
     }
 }
 
